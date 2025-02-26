@@ -4,8 +4,8 @@ public class Main {
     public static void main(String[] args) {
         try {
             // Load matrices
-            SparseMatrix matrix1 = new SparseMatrix("dsa/sparse_matrix/sample_inputs/matrixfile1.txt");
-            SparseMatrix matrix2 = new SparseMatrix("dsa/sparse_matrix/sample_inputs/matrixfile3.txt");
+            SparseMatrix matrix1 = new SparseMatrix("/Sparse-Matrix/Sample-inputs/matrixfile1.txt");
+            SparseMatrix matrix2 = new SparseMatrix("/Sparse-Matrix/Sample-inputs/matrixfile3.txt");
 
             // Perform operations
             SparseMatrix resultAdd = matrix1.add(matrix2);
