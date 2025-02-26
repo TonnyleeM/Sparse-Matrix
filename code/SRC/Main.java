@@ -13,9 +13,9 @@ public class Main {
             SparseMatrix resultMul = matrix1.multiply(matrix2);
 
             // Save results to the results folder
-            resultAdd.saveToFile("dsa/sparse_matrix/results/result_add.txt");
-            resultSub.saveToFile("dsa/sparse_matrix/results/result_sub.txt");
-            resultMul.saveToFile("dsa/sparse_matrix/results/result_mul.txt");
+            resultAdd.saveToFile("/Sparse-Matrix/results/result_add.txt");
+            resultSub.saveToFile("/Sparse-Matrix/results/result_sub.txt");
+            resultMul.saveToFile("/Sparse-Matrix/results/result_mul.txt");
 
             System.out.println("Operations completed successfully. Check the results folder for output files.");
         } catch (IOException e) {
