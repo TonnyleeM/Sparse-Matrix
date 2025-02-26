@@ -49,20 +49,7 @@ java Main
 File Format
 Input files must strictly follow this format:
 
-Copy
-rows=<number_of_rows>
-cols=<number_of_columns>
-(<row>, <column>, <value>)
-(<row>, <column>, <value>)
-...
-Example
-Copy
-rows=8433
-cols=3180
-(0, 381, -694)
-(0, 128, -838)
-(0, 639, 857)
-Format Rules
+
 The first line must specify the number of rows.
 
 The second line must specify the number of columns.
@@ -107,68 +94,6 @@ Matrix dimension mismatches.
 Out-of-bounds access.
 
 Memory allocation failures.
-
-Error Types
-IllegalArgumentException for format errors.
-
-IndexOutOfBoundsException for invalid indices.
-
-IOException for file I/O errors.
-
-Testing
-To verify your implementation:
-
-Use the provided sample input files in the sample_inputs folder.
-
-Test with various matrix sizes.
-
-Verify operations with:
-
-Zero matrices.
-
-Identity matrices.
-
-Large sparse matrices.
-
-Edge cases.
-
-Rubric Compliance
-Uniqueness (10 points)
-Custom implementation without external libraries.
-
-Original code structure.
-
-Individual problem-solving approach.
-
-Correctness (80 points)
-Accurate matrix operations.
-
-Proper file handling.
-
-Comprehensive error handling.
-
-Correct sparse matrix representation.
-
-Efficiency (10 points)
-Optimized memory usage.
-
-Efficient algorithms.
-
-Handles large matrices effectively.
-
-Contributing
-Fork the repository.
-
-Create a feature branch:
-
-bash
-Copy
-git checkout -b feature-branch
-Follow the assignment guidelines.
-
-Submit a pull request.
-
-Ensure all tests pass.
 
 Author
 TonnyleeM
