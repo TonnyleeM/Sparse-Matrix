@@ -51,12 +51,12 @@ This project implements a **sparse matrix** data structure and operations for th
 </pre>
 
 
-4. Compile and run:
-cd dsa/sparse_matrix/code/src
-javac Main.java
-java Main
+3. ## Compile and run:
+-cd dsa/sparse_matrix/code/src
+-javac Main.java
+-java Main
 
-5. Check results:
+5. ## Check results:
 cat ../../../../results/result_add.txt
 
 ---
