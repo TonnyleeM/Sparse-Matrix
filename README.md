@@ -35,7 +35,8 @@ This project implements a **sparse matrix** data structure and operations for th
    git clone https://github.com/your-username/sparse-matrix-assignment.git
    cd sparse-matrix-assignment
    
-2. Verify directory structure:
+2. ##Verify directory structure:
+<prep>
 /sparse-matrix-assignment/
 ├── dsa/
 │   └── sparse_matrix/
@@ -47,13 +48,14 @@ This project implements a **sparse matrix** data structure and operations for th
 │           ├── matrixfile1.txt
 │           └── matrixfile3.txt
 └── results/
+</prep>
 
-3. Compile and run:
+4. Compile and run:
 cd dsa/sparse_matrix/code/src
 javac Main.java
 java Main
 
-4. Check results:
+5. Check results:
 cat ../../../../results/result_add.txt
 
 ---
