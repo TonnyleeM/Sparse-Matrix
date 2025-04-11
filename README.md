@@ -35,8 +35,8 @@ This project implements a **sparse matrix** data structure and operations for th
    git clone https://github.com/your-username/sparse-matrix-assignment.git
    cd sparse-matrix-assignment
    
-2. ##Verify directory structure:
-<prep>
+2. ## Directory Structure
+<pre>
 /sparse-matrix-assignment/
 ├── dsa/
 │   └── sparse_matrix/
@@ -48,7 +48,8 @@ This project implements a **sparse matrix** data structure and operations for th
 │           ├── matrixfile1.txt
 │           └── matrixfile3.txt
 └── results/
-</prep>
+</pre>
+
 
 4. Compile and run:
 cd dsa/sparse_matrix/code/src
