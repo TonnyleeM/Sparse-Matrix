@@ -27,60 +27,65 @@ This project implements a **sparse matrix** data structure and operations for th
 
 ---
 
-## **Installation**
-1. Clone the repository:
+## **Quick Start Guide**
+
+### How to Run the Program
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/sparse-matrix-assignment.git
-Navigate to the project directory:
+   cd sparse-matrix-assignment
+   
+2. **Verify directory structure:
+/sparse-matrix-assignment/
+├── dsa/
+│   └── sparse_matrix/
+│       ├── code/
+│       │   └── src/
+│       │       ├── Main.java
+│       │       └── SparseMatrix.java
+│       └── sample_inputs/
+│           ├── matrixfile1.txt
+│           └── matrixfile3.txt
+└── results/
 
-bash
-Copy
-cd sparse-matrix-assignment/dsa/sparse_matrix/code/src
-Compile the Java files:
-
-bash
-Copy
+3. **Compile and run:
+cd dsa/sparse_matrix/code/src
 javac Main.java
-Run the program:
-
-bash
-Copy
 java Main
-File Format
-Input files must strictly follow this format:
 
+4. **Check results:
+cat ../../../../results/result_add.txt
 
-The first line must specify the number of rows.
+---
 
-The second line must specify the number of columns.
+## Assignment Requirements
+Implement a custom sparse matrix data structure.
 
-Each subsequent line contains one matrix element.
+Do not use standard template libraries or built-in matrix libraries.
 
-Elements must be in parentheses with integers separated by commas.
+Optimize for both memory usage and runtime performance.
 
-Whitespace is ignored.
+Support large matrix operations (e.g., 8433 x 3180 matrices).
 
-Only non-zero elements should be listed.
+---
 
-Implementation Details
-Data Structure
-Custom implementation without using standard template libraries.
+## Features
+### Core Operations
+-Matrix addition
+-Matrix subtraction
+-Matrix multiplication
+-Element access and modification
+-File I/O operations
 
-Optimized for sparse matrix operations.
+### Optimizations
+-Efficient storage of non-zero elements only.
 
-Efficient memory usage by storing only non-zero elements.
+-Optimized algorithms for sparse matrix operations.
 
-Core Functions
-java
-Copy
-SparseMatrix(String matrixFilePath) // Constructor to load matrix from file
-SparseMatrix(int numRows, int numCols) // Constructor to create an empty matrix
-int getElement(int row, int col) // Access element at (row, col)
-void setElement(int row, int col, int value) // Modify element at (row, col)
-Operations
-Matrix Addition: O(n₁ + n₂), where n₁ and n₂ are the number of non-zero elements in the two matrices.
+-Memory-efficient implementation.
 
-Matrix Subtraction: O(n₁ + n₂).
+---
+
 
 Matrix Multiplication: Optimized for sparse matrices.
 
